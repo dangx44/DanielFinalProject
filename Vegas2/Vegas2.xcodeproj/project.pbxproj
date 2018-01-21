@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D02D982200FD833005F84A3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D02D981200FD833005F84A3 /* BaseViewController.swift */; };
+		6D02D984200FD9D8005F84A3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D02D983200FD9D8005F84A3 /* RootViewController.swift */; };
+		6D138540200BBCA7002AFD35 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D13853E200BBCA6002AFD35 /* DLRadioButton.m */; };
+		6D138543200BE2C2002AFD35 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D138542200BE2C2002AFD35 /* DataManager.swift */; };
+		6D16E46120027B0A00B9E499 /* SlotMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D16E46020027B0A00B9E499 /* SlotMachine.swift */; };
+		6D7E464D1FFD340B00665ED7 /* dice_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E464C1FFD340B00665ED7 /* dice_sound.mp3 */; };
+		6D7E464F1FFD447500665ED7 /* Roullette_Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E464E1FFD447500665ED7 /* Roullette_Table.swift */; };
+		6D7E46511FFD52E500665ED7 /* GZLogFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E46501FFD52E500665ED7 /* GZLogFunc.swift */; };
+		6D7E46531FFD5DFF00665ED7 /* roulette_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E46521FFD5DFF00665ED7 /* roulette_sound.mp3 */; };
+		6D98571A1FF95B18006B41D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9857191FF95B18006B41D4 /* AppDelegate.swift */; };
+		6D98571F1FF95B18006B41D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D98571D1FF95B18006B41D4 /* Main.storyboard */; };
+		6D9857221FF95B18006B41D4 /* Vegas2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D9857201FF95B18006B41D4 /* Vegas2.xcdatamodeld */; };
+		6D9857241FF95B18006B41D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D9857231FF95B18006B41D4 /* Assets.xcassets */; };
+		6D9857271FF95B18006B41D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D9857251FF95B18006B41D4 /* LaunchScreen.storyboard */; };
+		6D9857301FF95BE1006B41D4 /* gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D98572F1FF95BE1006B41D4 /* gif.swift */; };
+		6D9857321FF95CB9006B41D4 /* roll_dice2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D9857311FF95CB9006B41D4 /* roll_dice2.gif */; };
+		6D9857341FF95CF2006B41D4 /* CrapsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9857331FF95CF2006B41D4 /* CrapsTable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D02D981200FD833005F84A3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6D02D983200FD9D8005F84A3 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		6D13853D200BBCA6002AFD35 /* Vegas2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vegas2-Bridging-Header.h"; sourceTree = "<group>"; };
+		6D13853E200BBCA6002AFD35 /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadioButton.m; sourceTree = "<group>"; };
+		6D13853F200BBCA7002AFD35 /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadioButton.h; sourceTree = "<group>"; };
+		6D138542200BE2C2002AFD35 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		6D16E46020027B0A00B9E499 /* SlotMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachine.swift; sourceTree = "<group>"; };
+		6D7E464C1FFD340B00665ED7 /* dice_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice_sound.mp3; sourceTree = "<group>"; };
+		6D7E464E1FFD447500665ED7 /* Roullette_Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roullette_Table.swift; sourceTree = "<group>"; };
+		6D7E46501FFD52E500665ED7 /* GZLogFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GZLogFunc.swift; sourceTree = "<group>"; };
+		6D7E46521FFD5DFF00665ED7 /* roulette_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = roulette_sound.mp3; sourceTree = "<group>"; };
+		6D9857161FF95B18006B41D4 /* Vegas2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vegas2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D9857191FF95B18006B41D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D98571E1FF95B18006B41D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D9857211FF95B18006B41D4 /* Vegas2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vegas2.xcdatamodel; sourceTree = "<group>"; };
+		6D9857231FF95B18006B41D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D9857261FF95B18006B41D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D9857281FF95B18006B41D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D98572F1FF95BE1006B41D4 /* gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gif.swift; sourceTree = "<group>"; };
+		6D9857311FF95CB9006B41D4 /* roll_dice2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = roll_dice2.gif; sourceTree = "<group>"; };
+		6D9857331FF95CF2006B41D4 /* CrapsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrapsTable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D9857131FF95B18006B41D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D138541200BE2B3002AFD35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D138542200BE2C2002AFD35 /* DataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D7E464B1FFD32BF00665ED7 /* Supporting_Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D7E46521FFD5DFF00665ED7 /* roulette_sound.mp3 */,
+				6D7E464C1FFD340B00665ED7 /* dice_sound.mp3 */,
+				6D9857311FF95CB9006B41D4 /* roll_dice2.gif */,
+			);
+			path = Supporting_Files;
+			sourceTree = "<group>";
+		};
+		6D98570D1FF95B18006B41D4 = {
+			isa = PBXGroup;
+			children = (
+				6D9857181FF95B18006B41D4 /* Vegas2 */,
+				6D9857171FF95B18006B41D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D9857171FF95B18006B41D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D9857161FF95B18006B41D4 /* Vegas2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D9857181FF95B18006B41D4 /* Vegas2 */ = {
+			isa = PBXGroup;
+			children = (
+				6D138541200BE2B3002AFD35 /* Model */,
+				6D7E464B1FFD32BF00665ED7 /* Supporting_Files */,
+				6D98572E1FF95B20006B41D4 /* Games */,
+				6D9857191FF95B18006B41D4 /* AppDelegate.swift */,
+				6D98572F1FF95BE1006B41D4 /* gif.swift */,
+				6D7E46501FFD52E500665ED7 /* GZLogFunc.swift */,
+				6D02D983200FD9D8005F84A3 /* RootViewController.swift */,
+				6D98571D1FF95B18006B41D4 /* Main.storyboard */,
+				6D9857231FF95B18006B41D4 /* Assets.xcassets */,
+				6D9857251FF95B18006B41D4 /* LaunchScreen.storyboard */,
+				6D9857281FF95B18006B41D4 /* Info.plist */,
+				6D13853F200BBCA7002AFD35 /* DLRadioButton.h */,
+				6D13853E200BBCA6002AFD35 /* DLRadioButton.m */,
+				6D9857201FF95B18006B41D4 /* Vegas2.xcdatamodeld */,
+				6D13853D200BBCA6002AFD35 /* Vegas2-Bridging-Header.h */,
+			);
+			path = Vegas2;
+			sourceTree = "<group>";
+		};
+		6D98572E1FF95B20006B41D4 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				6D9857331FF95CF2006B41D4 /* CrapsTable.swift */,
+				6D16E46020027B0A00B9E499 /* SlotMachine.swift */,
+				6D7E464E1FFD447500665ED7 /* Roullette_Table.swift */,
+				6D02D981200FD833005F84A3 /* BaseViewController.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D9857151FF95B18006B41D4 /* Vegas2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D98572B1FF95B18006B41D4 /* Build configuration list for PBXNativeTarget "Vegas2" */;
+			buildPhases = (
+				6D9857121FF95B18006B41D4 /* Sources */,
+				6D9857131FF95B18006B41D4 /* Frameworks */,
+				6D9857141FF95B18006B41D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vegas2;
+			productName = Vegas2;
+			productReference = 6D9857161FF95B18006B41D4 /* Vegas2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D98570E1FF95B18006B41D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = dan;
+				TargetAttributes = {
+					6D9857151FF95B18006B41D4 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6D9857111FF95B18006B41D4 /* Build configuration list for PBXProject "Vegas2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D98570D1FF95B18006B41D4;
+			productRefGroup = 6D9857171FF95B18006B41D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D9857151FF95B18006B41D4 /* Vegas2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D9857141FF95B18006B41D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7E46531FFD5DFF00665ED7 /* roulette_sound.mp3 in Resources */,
+				6D9857271FF95B18006B41D4 /* LaunchScreen.storyboard in Resources */,
+				6D7E464D1FFD340B00665ED7 /* dice_sound.mp3 in Resources */,
+				6D9857321FF95CB9006B41D4 /* roll_dice2.gif in Resources */,
+				6D9857241FF95B18006B41D4 /* Assets.xcassets in Resources */,
+				6D98571F1FF95B18006B41D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D9857121FF95B18006B41D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D9857221FF95B18006B41D4 /* Vegas2.xcdatamodeld in Sources */,
+				6D138543200BE2C2002AFD35 /* DataManager.swift in Sources */,
+				6D02D982200FD833005F84A3 /* BaseViewController.swift in Sources */,
+				6D02D984200FD9D8005F84A3 /* RootViewController.swift in Sources */,
+				6D7E464F1FFD447500665ED7 /* Roullette_Table.swift in Sources */,
+				6D16E46120027B0A00B9E499 /* SlotMachine.swift in Sources */,
+				6D138540200BBCA7002AFD35 /* DLRadioButton.m in Sources */,
+				6D9857301FF95BE1006B41D4 /* gif.swift in Sources */,
+				6D9857341FF95CF2006B41D4 /* CrapsTable.swift in Sources */,
+				6D7E46511FFD52E500665ED7 /* GZLogFunc.swift in Sources */,
+				6D98571A1FF95B18006B41D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D98571D1FF95B18006B41D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D98571E1FF95B18006B41D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D9857251FF95B18006B41D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D9857261FF95B18006B41D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D9857291FF95B18006B41D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D98572A1FF95B18006B41D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D98572C1FF95B18006B41D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Vegas2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dan.Vegas2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Vegas2/Vegas2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D98572D1FF95B18006B41D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Vegas2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dan.Vegas2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Vegas2/Vegas2-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D9857111FF95B18006B41D4 /* Build configuration list for PBXProject "Vegas2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D9857291FF95B18006B41D4 /* Debug */,
+				6D98572A1FF95B18006B41D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D98572B1FF95B18006B41D4 /* Build configuration list for PBXNativeTarget "Vegas2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D98572C1FF95B18006B41D4 /* Debug */,
+				6D98572D1FF95B18006B41D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D9857201FF95B18006B41D4 /* Vegas2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D9857211FF95B18006B41D4 /* Vegas2.xcdatamodel */,
+			);
+			currentVersion = 6D9857211FF95B18006B41D4 /* Vegas2.xcdatamodel */;
+			path = Vegas2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6D98570E1FF95B18006B41D4 /* Project object */;
+}
